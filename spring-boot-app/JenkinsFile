@@ -7,15 +7,14 @@ pipeline {
     }
 
     stages {
-        stage('Clean Workspace') {
-            steps {
-                deleteDir() // Delete all files in workspace to prevent permission issues
-            }
-        }
-
         stage('Checkout') {
             steps {
-                checkout scm
+                deleteDir() // ensures workspace is empty
+                checkout([$class: 'GitSCM',
+                          branches: [[name: '*/main']],
+                          doGenerateSubmoduleConfigurations: false,
+                          extensions: [[$class: 'WipeWorkspace']], // FORCE wipe
+                          userRemoteConfigs: [[url: 'https://github.com/iam-bolla/ultimate-cicd-pipeline']]])
                 sh 'ls -ltr'
             }
         }
@@ -90,3 +89,4 @@ pipeline {
         }
     }
 }
+
