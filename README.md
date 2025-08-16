@@ -243,6 +243,7 @@ Click Sync
 
 <img width="1628" height="846" alt="image" src="https://github.com/user-attachments/assets/12f2193b-9622-454e-b628-0ee42bc3b35d" />
 Verify in cluster:
+
 ```bash
 kubectl get deploy
 kubectl get pods
