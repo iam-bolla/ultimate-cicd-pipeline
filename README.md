@@ -182,8 +182,11 @@ Restart Jenkins → New pipeline → SCM → Provide repo, branch, Jenkinsfile �
 
 ✅ Watch as Docker builds images, SonarQube checks quality, and deployment files update automatically.
 <img width="1865" height="913" alt="image" src="https://github.com/user-attachments/assets/f9af6b3d-aa59-48d1-bec0-9afb4e5b9321" />
+
 <img width="1857" height="852" alt="image" src="https://github.com/user-attachments/assets/44a728d8-d10c-4fd3-8b65-e88aad75fee3" />
+
 <img width="359" height="41" alt="image" src="https://github.com/user-attachments/assets/a762ea3e-1e85-4001-9b07-a90ce50156c4" />
+
 <img width="1876" height="887" alt="image" src="https://github.com/user-attachments/assets/e10492fd-3e6d-45f2-8e85-14f30e02924a" />
 
 ---
@@ -234,7 +237,10 @@ Create an ArgoCD Application:
 Provide repo details, path, cluster URL (local), and namespace
 
 Click Sync
+
+
 <img width="1628" height="846" alt="image" src="https://github.com/user-attachments/assets/b10cfdef-0457-43b4-b833-7e772f7f13eb" />
+
 <img width="1628" height="846" alt="image" src="https://github.com/user-attachments/assets/12f2193b-9622-454e-b628-0ee42bc3b35d" />
 Verify in cluster:
 ```bash
