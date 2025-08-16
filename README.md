@@ -94,12 +94,18 @@ Get initial admin password:
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+
 <img width="987" height="453" alt="image" src="https://github.com/user-attachments/assets/7093130b-6d26-4530-b2c4-6ce5442c2c14" />
+
 Install suggested plugins.
-Wait for the Jenkins to Install suggested plugins
+
+Wait for the Jenkins to Install suggested plugins.
+
 Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user
-Jenkins Installation is Successful. You can now starting using the Jenkins
+Jenkins Installation is Successful. You can now starting using the Jenkins.
+
 <img width="1980" height="1232" alt="image" src="https://github.com/user-attachments/assets/37ce9bba-63b0-4ec3-84be-3d7876b6b582" />
+
 ---
 Step 3: Docker as Jenkins Agent 
 
