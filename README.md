@@ -60,7 +60,6 @@ This project implements a **CI/CD pipeline with GitOps**:
 
 💡 *Pro Tip:* t2.medium ensures smooth installation of Jenkins, Docker, SonarQube, and Kubernetes components.  
 
-**Screenshot:** EC2 instance launch page highlighting Ubuntu & instance type selection  
 
 ---
 
