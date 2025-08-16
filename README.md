@@ -165,6 +165,7 @@ Make sure the IDs match what’s in your Jenkinsfile.
 Step 7: Pipeline Configuration
 
 Modify your Jenkinsfile:
+```bash
 
 stage('Static Code Analysis') {
     environment { SONAR_URL = "http://<your-sonarqube-ip>:9000" }
@@ -175,6 +176,7 @@ stage('Update Deployment File') {
         GIT_USER_NAME = "<your-github-username>" 
     }
 }
+```
 
 Restart Jenkins → New pipeline → SCM → Provide repo, branch, Jenkinsfile → Build.
 
