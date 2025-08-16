@@ -118,9 +118,10 @@ Parallel builds without conflicts
 Pre-configured Maven eliminates manual setup
 
 Plugins: Docker Pipeline Plugin, SonarQube Scanner Plugin
-
- Pro Tip: Use Docker-outside-of-Docker (DooD) for speed, simplicity, and easier debugging
+ 
 <img width="1027" height="367" alt="image" src="https://github.com/user-attachments/assets/4e8d9e2a-9857-431d-881d-500f9c74d230" />
+ Pro Tip: Use Docker-outside-of-Docker (DooD) for speed, simplicity, and easier debugging
+
 ---
 Step 4: SonarQube Setup ✅
 ```bash
