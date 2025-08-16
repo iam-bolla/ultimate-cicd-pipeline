@@ -206,7 +206,7 @@ Install ArgoCD Operator
 kubectl create -f https://operatorhub.io/install/argocd-operator.yaml
 ```
 
-Check operator status: kubectl get svc -n operators
+Check operator status: ```bash kubectl get svc -n operators ```
 
 Create ArgoCD Controller YAML in repo (in repo there is argocd-basic.yaml) and apply it:
 ```bash
