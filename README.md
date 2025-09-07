@@ -1,3 +1,14 @@
+# Ultimate CI/CD Pipeline with GitOps 🚀
+
+![Build Status](https://github.com/iam-bolla/ultimate-cicd-pipeline/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/iam-bolla/ultimate-cicd-pipeline/branch/main/graph/badge.svg)](https://codecov.io/gh/iam-bolla/ultimate-cicd-pipeline)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&logoColor=white)
+
+
 # CI/CD with GitOps – Full Hands-On Implementation 🚀
 
 Welcome! This repository demonstrates a **complete CI/CD pipeline** with a GitOps approach, using Jenkins, Docker, SonarQube, and Kubernetes (ArgoCD). It’s designed to show **real-world DevOps automation** from code commit to deployment.  
