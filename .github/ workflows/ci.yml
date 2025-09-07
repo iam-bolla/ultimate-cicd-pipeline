@@ -3,7 +3,7 @@ name: CI Pipeline
 on: 
   push:
   pull_request:
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,6 +21,7 @@ jobs:
       - name: Run CI Job
         run: |
           echo "✅ Build Successful! CI pipeline is running."
+
 
 
 
