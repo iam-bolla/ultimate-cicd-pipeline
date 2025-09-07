@@ -1,7 +1,7 @@
 ![Build Status](https://github.com/iam-bolla/ultimate-cicd-pipeline/actions/workflows/ci.yml/badge.svg)
 
 # Ultimate CI/CD Pipeline with GitOps 🚀
-[![codecov](https://codecov.io/gh/iam-bolla/ultimate-cicd-pipeline/branch/main/graph/badge.svg)](https://codecov.io/gh/iam-bolla/ultimate-cicd-pipeline)
+[![codecov](https://codecov.io/gh/iam-bolla/ultimate-cicd-pipeline/branch/main/graph/badge.svg)]
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white)
