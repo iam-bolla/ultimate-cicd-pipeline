@@ -1,3 +1,5 @@
+![Build Status](https://github.com/iam-bolla/ultimate-cicd-pipeline/actions/workflows/ci.yml/badge.svg)
+
 # Ultimate CI/CD Pipeline with GitOps 🚀
 
 ![Build Status](https://github.com/iam-bolla/ultimate-cicd-pipeline/actions/workflows/ci.yml/badge.svg)
