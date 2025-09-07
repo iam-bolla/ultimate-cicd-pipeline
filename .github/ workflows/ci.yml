@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI Pipeline 
 
 on:
   push:
@@ -23,3 +23,4 @@ jobs:
       - name: Run CI Job
         run: |
           echo "✅ Build Successful! CI pipeline is running."
+
